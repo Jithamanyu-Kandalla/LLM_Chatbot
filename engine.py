@@ -1,4 +1,4 @@
-from pipelines.text_pipeline import text_pipeline
+from pipeline.text_pipeline import text_pipeline
 from hf_api import HFChatbot
 
 class ChatbotEngine:
