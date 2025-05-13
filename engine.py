@@ -1,9 +1,9 @@
-from pipelines.text_pipeline import text_pipelines
+from pipelines.text_pipeline import text_pipeline
 from hf_api import HFChatbot
 
 class ChatbotEngine:
     def __init__(self):
-        self.pipeline = text_pipelines()
+        self.pipeline = text_pipeline()
         self.chatbot = HFChatbot()
 
     def chat(self, user_input):
